@@ -4,7 +4,7 @@
     font-family: Montserrat, sans-serif;
     max-width:500px;
     margin:auto;
-    padding-bottom:20px;
+    padding-bottom:25px;
 }
 
 .navbar{
@@ -17,11 +17,11 @@
 
 .nav{
     float: left; 
-    padding-left: 15px;
-    padding-right: 20px;
     list-style-type:none;
     text-decoration:none;
     font-size:15px;
+    width:20%;
+    padding: 12, 0;
     
 }
 
