@@ -2,7 +2,7 @@
 
 .page{
     font-family: Montserrat, sans-serif;
-    max-width:438px;
+    max-width:500px;
     margin:auto;
     padding-bottom:25px;
 }
@@ -25,18 +25,9 @@
     
 }
 
-@media only screen 
-and (max-width : 320px) {
-    .nav{
-        
-    }
-}
-
-
-
 .text{ 
 font-family: Montserrat, sans-serif;
-max-width:438px;
+max-width:500px;
 margin:auto;
 }
 
