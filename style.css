@@ -3,17 +3,16 @@
 
 .page{
     font-family: Montserrat, sans-serif;
-    max-width:750px;
+    max-width:500px;
     margin:auto;
 }
 
-h3 {
+.heading {
     background-color: #d6e6d3;
     text-align: center;
     padding: 4.5px;
     border-radius: 6px;
     color: darkslategrey;
-    font-size: 17px;
 }
 
 p {
@@ -24,17 +23,19 @@ li {
     font-size: 14px;
 }
 
-img {
+h3 {
+    font-size: 17px;
+}
+
+.logo {
     width: 350px;
     height: 100px;
     margin:auto;
 }
 
 .nav{
-        
     float: left; 
     list-style-type:none;
-    margin:10px;
     text-align: center;
     padding: 18px 20px;
     
@@ -43,9 +44,11 @@ img {
 .nav-bar {
     background-color: white;
     display: inline-block;
-    margin:auto;
+    margin:none;
+    text-align:center;
 }
 
 .spacer{
     height:2px;
 }
+
