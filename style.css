@@ -1,17 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+@media (max-width:640px){
 .page{
     font-family: Montserrat, sans-serif;
-    max-width:500px;
+    max-width:350px;
     margin:auto;
     padding-bottom:25px;
 }
+}
 
-.navbar{
+@media (min-width:640px){
+    .page{
+        max-width:1000px;
+        margin:auto;
+        padding-bottom:25px;
+        font-family: Montserrat, sans-serif;
+    }
+}
+
+.nav-bar{
     position:relative;
-    width:100%;
-    margin:0;
+    width:112%;
     padding:0;
+
 }
 
 
@@ -23,8 +34,9 @@
     width:25%;
     padding: 12, 0;
     white-space: nowrap;
-    
 }
+
+
 
 .text{ 
 font-family: Montserrat, sans-serif;
@@ -40,7 +52,6 @@ margin:auto;
     margin-top:0;
     box-sizing: border-box;
     padding:6px;
-
 }
 
 p {
@@ -73,7 +84,5 @@ h3 {
 }
 
 .spacer{
-    height:2px;
+    height:35px;
 }
-
-
